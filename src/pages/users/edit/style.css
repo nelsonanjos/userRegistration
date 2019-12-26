@@ -1,0 +1,47 @@
+.user-edit-form {
+    border: solid 1px #a09b9b ;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px #c3e2e4;
+    height: 500px;
+    margin: auto auto auto 5%;
+    padding-top: 20px;
+    text-align: center;
+    width: 750px;
+}
+
+.line-top {
+    background-color: #00b18a;
+    height: 10px;
+    border-radius: 3px 3px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.login-screen h1 {
+    margin-bottom: 20px;
+}
+
+.user-edit-fields input{
+    border: solid 0.5px #339680;
+    border-radius: 2px;
+    font-size: 16px;
+    height: 40px;
+    margin: 10px 80px 20px 35px;
+    padding: 10px;
+    width: 90%;
+}
+
+.user-edit-save-button{
+    background-color: #00b18a;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold ;
+    height: 40px;
+    margin: 30px 80px 20px 35px;
+    width: 100px;
+}
+
+

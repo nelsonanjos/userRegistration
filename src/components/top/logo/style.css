@@ -1,0 +1,13 @@
+.container-logo {
+    float: left;
+    height: 100px;
+    width: 134px;
+    /* border: 1px solid #000; */
+}
+
+.container-logo img{
+    height: 100px;
+    width: 132px;
+    box-shadow: 1px 1px 1px 1px  #aaaaac;
+    border-radius: 2px;
+}
