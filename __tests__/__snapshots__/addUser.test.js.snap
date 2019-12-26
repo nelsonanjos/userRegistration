@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Add Component render correctly AddUser 1`] = `
+"<Fragment>
+  <Header />
+  <Menu />
+  <div className=\\"user-add-form\\">
+    <div className=\\"line-top\\" />
+    <form method=\\"post\\" id=\\"user-add-form\\" onSubmit={[Function: handleFormSubmit]}>
+      <div className=\\"user-add-fields\\">
+        Name
+        <input onChange={[Function: onChange]} name=\\"nameInput\\" value=\\"\\" type=\\"text\\" placeholder=\\"Insert name.\\" onBlur={[Function: onBlur]} />
+        CPF
+        <input onChange={[Function: onChange]} name=\\"cpfInput\\" value=\\"\\" type=\\"text\\" placeholder=\\"Insert cpf.\\" onBlur={[Function: onBlur]} />
+        User
+        <input onChange={[Function: onChange]} name=\\"userInput\\" value=\\"\\" type=\\"text\\" placeholder=\\"Insert user.\\" onBlur={[Function: onBlur]} />
+        Password
+        <input onChange={[Function: onChange]} name=\\"passInput\\" value=\\"\\" type=\\"password\\" placeholder=\\"Insert password.\\" onBlur={[Function: onBlur]} />
+      </div>
+      <button data-testid=\\"form-field\\" type=\\"submit\\" className=\\" button user-add-save-button\\">
+        Save
+      </button>
+    </form>
+    <Link to=\\"/Users\\" className=\\"button user-add-cancel-button\\">
+      Cancel
+    </Link>
+  </div>
+</Fragment>"
+`;

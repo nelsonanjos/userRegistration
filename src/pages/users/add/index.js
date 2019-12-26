@@ -15,7 +15,7 @@ const AddUser = () => {
 
     var accountsJson = JSON.parse(localStorage.getItem('tableUser'));
 
-    const test = () => 'ola';
+    const test = (a,b) => a + b ;
 
     const fieldCheck = field => {
         if (field.value === null || field.value.trim() === ""){
@@ -123,7 +123,7 @@ const AddUser = () => {
     }
 
     return (
-        <div>
+        <>
             <Top />
             <Menu />
             <div className="user-add-form">
@@ -180,7 +180,7 @@ const AddUser = () => {
                     Cancel
                 </Link>
             </div >
-        </div>
+        </>
     );
 }
 
